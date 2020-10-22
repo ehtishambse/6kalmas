@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.developer.arsltech.a6kalma">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8863088720647115~8400528181"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".six_kalmas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".first_kalma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".second_kalma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".third_kalma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".forth_kalma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".fifth_kalma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".six_kalma"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ayatul_kursi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Namaz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".wazu"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+
+</manifest>

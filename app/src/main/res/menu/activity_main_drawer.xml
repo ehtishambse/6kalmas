@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_six_kalma"
+            android:icon="@drawable/nav_icon_"
+            android:title="6 Kalma" />
+        <item
+            android:id="@+id/nav_ayatul_kursi"
+            android:icon="@drawable/nav_icon_"
+            android:title="Ayatul Kursi " />
+        <item
+            android:id="@+id/nav_namaz"
+            android:icon="@drawable/nav_icon_"
+            android:title="Namaz" />
+        <item
+            android:id="@+id/nav_wazo"
+            android:icon="@drawable/nav_icon_"
+            android:title="Wazo" />
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_RateThisApp"
+                android:icon="@drawable/star_rate"
+                android:title="Rate this app" />
+            <item
+                android:id="@+id/nav_MoreApps"
+                android:icon="@drawable/more_apps"
+                android:title="More Apps" />
+        </menu>
+    </item>
+
+</menu>

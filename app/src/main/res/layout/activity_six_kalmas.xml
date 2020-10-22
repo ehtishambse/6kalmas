@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kalmas_background"
+    tools:context=".six_kalmas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/firstkalma"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="پہلا کلمہ"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/secondkalma"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/firstkalma"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button"
+                    android:text="دوسرا کلمہ"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/thirdkalma"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/secondkalma"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button"
+                    android:text="تیسرا کلمہ"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/forthkalma"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/thirdkalma"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button"
+                    android:text="چوتھا کلمہ"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/fifthkalma"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/forthkalma"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button"
+                    android:text="پانچواں کلمہ"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/sixkalma"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/fifthkalma"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/button"
+                    android:text="چھٹا کلمہ"
+                    android:textColor="@android:color/white"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-8863088720647115/7409335552">
+                </com.google.android.gms.ads.AdView>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
